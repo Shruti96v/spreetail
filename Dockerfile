@@ -33,7 +33,7 @@ RUN composer install --no-dev --optimize-autoloader
 RUN mkdir -p database && touch database/database.sqlite
 
 # Directory permissions
-RUN chmod -R 777 storage bootstrap/cache database
+RUN chmod -R 777 storage bootstrap/cache database && chmod -R 755 public
 
 # Copy Nginx & Supervisor Configs
 COPY docker/nginx.conf /etc/nginx/nginx.conf
