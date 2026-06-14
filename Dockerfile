@@ -44,9 +44,4 @@ RUN chmod +x /usr/local/bin/entrypoint.sh
 # Expose Port 80
 EXPOSE 80
 
-# Build optimizations
-RUN php artisan config:cache && \
-    php artisan route:cache && \
-    php artisan view:cache
-
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
