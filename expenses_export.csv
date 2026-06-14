@@ -1,0 +1,18 @@
+Date,Description,Amount,Paid By,Currency,Split Type,Split Details
+2026-02-10,Groceries,3000,Aisha,INR,equal,Aisha;Rohan;Priya;Meera
+2026-02-10,Groceries,3000,Aisha,INR,equal,Aisha;Rohan;Priya;Meera
+2026-02-15,Rent,20000,Rohan,INR,equal,Aisha;Rohan;Priya;Meera
+2026-02-28,Priya to Rohan,5000,Priya,INR,settlement,Rohan
+2026-03-05,Electricity,4000,Meera,INR,percentage,Aisha:25;Rohan:25;Priya:25;Meera:25
+2026-03-10,USD Dinner,120,Dev,USD,equal,Aisha;Rohan;Priya;Meera;Dev
+2026-03-15,Trip Cab,80,Priya,USD,exact,Aisha:20;Rohan:20;Priya:20;Meera:20
+2026-04-05,Post-exit Groceries,2500,Aisha,INR,equal,Aisha;Rohan;Priya;Meera
+2026-04-10,Internet,1500,Rohan,INR,equal,Aisha;Rohan;Priya
+2026-04-20,Welcome dinner for Sam,4500,Priya,INR,equal,Aisha;Rohan;Priya;Sam
+2026-04-22,Rent,24000,Rohan,INR,exact,Aisha:6000;Rohan:6000;Priya:6000;Sam:6000
+2026-03-20,Negative Refund Refund,-150,Aisha,INR,equal,Aisha;Rohan;Priya;Meera
+2026-07-10,Future Movie,1000,Aisha,INR,equal,Aisha;Rohan;Priya;Sam
+2026-04-08,Pre-join Gym Session,5000,Aisha,INR,equal,Aisha;Rohan;Priya;Sam
+2026-04-18,Missing Amount,,Rohan,INR,equal,Aisha;Rohan;Priya;Sam
+2026-04-19,Invalid Currency Test,500,Aisha,EUR,equal,Aisha;Rohan;Priya;Sam
+2026-04-25,Unknown split,1000,Rohan,INR,magic,Aisha;Rohan
